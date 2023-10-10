@@ -1,0 +1,3 @@
+{
+    "C_Cpp.default.compilerPath": "${workspaceFolder}/llvm-mos/bin/mos-nes-clang++.bat"
+}
