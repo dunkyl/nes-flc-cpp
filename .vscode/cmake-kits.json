@@ -1,0 +1,10 @@
+[
+    {
+        "name": "LLVM MOS NES Clang 18",
+        "compilers": {
+          "C": "${workspaceFolder}\\llvm-mos\\bin\\mos-nes-nrom-clang.bat",
+          "CXX": "${workspaceFolder}\\llvm-mos\\bin\\mos-nes-nrom-clang++.bat"
+        },
+        "isTrusted": true
+      }
+]
