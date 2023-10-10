@@ -22,5 +22,6 @@ target_compile_options(FLCXXNES PRIVATE
   -Wnull-dereference
   -Wformat=2
   -Wimplicit-fallthrough
+  -Wno-writable-strings
   -Oz
 )
