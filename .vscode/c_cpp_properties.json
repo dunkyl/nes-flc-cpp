@@ -1,22 +1,17 @@
 {
     "configurations": [
         {
-            "name": "NES",
+            "name": "Win32",
             "includePath": [
-                "${workspaceFolder}/**",
-                "${vcpkgRoot}/x64-windows/include",
-                "${vcpkgRoot}/x64-windows-static-md/include",
-                "${vcpkgRoot}/x86-windows/include"
+                "${workspaceFolder}/**"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
                 "_UNICODE"
             ],
-            "intelliSenseMode": "clang-x86",
-            "compilerPath": "${workspaceFolder}/llvm-mos/bin/mos-nes-clang++.bat",
-            "cStandard": "c23",
-            "cppStandard": "c++23"
+            "intelliSenseMode": "windows-msvc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools"
         }
     ],
     "version": 4
