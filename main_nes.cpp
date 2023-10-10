@@ -2,11 +2,7 @@
 
 #include <nes.h>
 
-const auto X = 2z;
 
-const uint8_t INT_SZ = sizeof(int);
-const uint8_t PTR_SZ = sizeof(char*);
-const uint8_t SZ_SZ = sizeof(decltype(X));
 
 static auto ppu_wait_vblank(void) {
     while (!(PPU.status & 0x80))

@@ -1,3 +1,18 @@
 {
-    "C_Cpp.default.compilerPath": "${workspaceFolder}/llvm-mos/bin/mos-nes-clang++.bat"
+    "C_Cpp.default.compilerPath": "${workspaceFolder}/llvm-mos/bin/mos-nes-clang++.bat",
+    "files.associations": {
+        "array": "cpp",
+        "algorithm": "cpp",
+        "cmath": "cpp",
+        "cstddef": "cpp",
+        "cstdint": "cpp",
+        "cstdio": "cpp",
+        "cstdlib": "cpp",
+        "initializer_list": "cpp",
+        "iterator": "cpp",
+        "limits": "cpp",
+        "new": "cpp",
+        "type_traits": "cpp",
+        "utility": "cpp"
+    }
 }
