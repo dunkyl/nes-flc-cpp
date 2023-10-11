@@ -39,6 +39,12 @@ From VS Code:
 3. Either:
     - Run the `CMake: Build` action (F7) (output to `/build/FLCXXNES.NES`)
     - Run the default build task (Ctrl+Shift+B) (output to `FLCXXNES.NES`)
+    - Run `ninja` in the terminal
+
+On MacOS, it may not easily allow you to run clang. Trust at least the following programs in `llvm-mos/bin` after downloading and extracting it:
+- `clang 18`
+- `ldd`
+- `llvm-mlb`
 
 ## Running
 
